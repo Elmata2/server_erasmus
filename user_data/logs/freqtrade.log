@@ -1,0 +1,71 @@
+2023-05-07 16:56:56,509 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-07 16:56:56,510 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2023-05-07 16:56:56,510 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-07 16:56:56,513 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2023-05-07 16:56:56,514 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-07 16:56:56,515 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 1 ...
+2023-05-07 16:56:56,569 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-07 16:56:56,573 - freqtrade.configuration.directory_operations - INFO - Created data directory: None
+2023-05-07 16:56:56,574 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/bybit ...
+2023-05-07 16:56:56,575 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-07 16:56:56,583 - freqtrade.exchange.check_exchange - WARNING - Exchange "bybit" is known to the the ccxt library, available for the bot, but not officially supported by the Freqtrade development team. It may work flawlessly (please report back) or have serious issues. Use it at your own discretion.
+2023-05-07 16:56:56,584 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-07 16:56:56,605 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy erasmus from '/freqtrade/user_data/strategies/erasmus.py'...
+2023-05-07 16:56:56,607 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-05-07 16:56:56,608 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-05-07 16:56:56,609 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-05-07 16:56:56,609 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-05-07 16:56:56,610 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 1.
+2023-05-07 16:56:56,611 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.03}
+2023-05-07 16:56:56,612 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 4h
+2023-05-07 16:56:56,613 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.15
+2023-05-07 16:56:56,614 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2023-05-07 16:56:56,614 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-05-07 16:56:56,615 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-05-07 16:56:56,616 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-05-07 16:56:56,616 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-05-07 16:56:56,617 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2023-05-07 16:56:56,618 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-05-07 16:56:56,618 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-05-07 16:56:56,619 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-05-07 16:56:56,620 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-05-07 16:56:56,621 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 14
+2023-05-07 16:56:56,622 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-05-07 16:56:56,624 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: False
+2023-05-07 16:56:56,624 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-05-07 16:56:56,625 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-05-07 16:56:56,626 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-05-07 16:56:56,626 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-05-07 16:56:56,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-05-07 16:56:56,629 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-05-07 16:56:56,630 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-05-07 16:56:56,631 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 1
+2023-05-07 16:56:56,631 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-05-07 16:56:56,635 - freqtrade.exchange.exchange - INFO - Using CCXT 3.0.75
+2023-05-07 16:56:56,636 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}}
+2023-05-07 16:56:56,644 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}}
+2023-05-07 16:56:56,652 - freqtrade.exchange.exchange - INFO - Using Exchange "Bybit"
+2023-05-07 16:57:10,525 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Bybit'...
+2023-05-07 16:57:11,534 - freqtrade.wallets - INFO - Wallets synced.
+2023-05-07 16:57:11,544 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2023-05-07 16:57:12,100 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2023-05-07 16:57:12,454 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2023-05-07 16:57:12,457 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - Local Rest Server listening to external connections
+2023-05-07 16:57:12,459 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - This is insecure please set to your loopback,e.g 127.0.0.1 in config.json
+2023-05-07 16:57:12,460 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2023-05-07 16:57:12,481 - uvicorn.error - INFO - Started server process [1]
+2023-05-07 16:57:12,484 - uvicorn.error - INFO - Waiting for application startup.
+2023-05-07 16:57:12,487 - uvicorn.error - INFO - Application startup complete.
+2023-05-07 16:57:12,490 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2023-05-07 16:57:12,501 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2023-05-07 16:57:12,508 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 1 pairs: ['ETH/USDT']
+2023-05-07 16:57:12,511 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2023-05-07 16:57:12,514 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2023-05-07 16:57:12,516 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2023-05-07 16:57:12,518 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2023-05-07 16:57:12,520 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2023-05-07 16:57:12,521 - freqtrade.worker - INFO - Changing state to: RUNNING
+2023-05-07 16:57:12,554 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `bybit`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 0.03}`\n*Stoploss:* `-0.15`\n*Position adjustment:* `Off`\n*Timeframe:* `4h`\n*Strategy:* `erasmus`"}
+2023-05-07 16:57:12,556 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2023-05-07 16:57:12,560 - freqtrade.freqtradebot - INFO - Updating 0 open orders.
+2023-05-07 16:57:17,568 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.4', state='RUNNING'
